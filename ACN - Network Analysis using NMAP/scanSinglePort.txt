@@ -1,0 +1,8 @@
+# Nmap 7.80 scan initiated Wed Mar 30 14:45:17 2022 as: nmap -p 80 -oN scanSinglePort.txt 10.1.50.11
+Nmap scan report for coep-HLBS-CM-44 (10.1.50.11)
+Host is up (0.000046s latency).
+
+PORT   STATE  SERVICE
+80/tcp closed http
+
+# Nmap done at Wed Mar 30 14:45:17 2022 -- 1 IP address (1 host up) scanned in 0.02 seconds
