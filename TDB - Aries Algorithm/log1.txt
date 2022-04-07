@@ -1,0 +1,14 @@
+start_transaction,t1
+write,t1,a,10
+commit,t1
+checkpoint
+start_transaction,t2
+write,t2,b,20
+write,t2,a,10
+commit,t2
+start_transaction,t3
+write,t3,c,50
+start_transaction,t4
+write,t4,c,5
+write,t3,d,100
+crash
